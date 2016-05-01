@@ -2,6 +2,8 @@
 
 This is a school project, where I was charged to design and develop an e-commerce website from scratch.
 
+This website sells video games with all the gaming platforms.
+
 ## Features
 
 There is an user accounts management, with a back-office for the admin to add/delete or edit product details.
