@@ -1,0 +1,351 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'helvetica', sans-serif;
+	background: rgba(50, 66, 92, 1);
+}
+.clear{
+	clear: both;
+}
+.conteneur {
+	width: 1100px;
+	margin: 0 auto;
+}
+
+
+
+/*--------------------------------------*\
+
+				  HEADER
+
+\*--------------------------------------*/
+
+.header {
+	height: 120px;
+	width: 100%;
+	background: #1f2c3f;
+}
+
+/*--------------------------------------*\
+				  LOGO
+\*--------------------------------------*/
+
+.logo {
+	float: left;
+	color: #fff;
+	font-size: 20px;
+	margin: 30px 20px 0 0;
+
+	background: #FFB03B;
+	width: 60px;
+	height: 60px;
+	border-radius: 60px;
+	position: relative;
+}
+.letter {
+	position: absolute;
+	bottom: -17px;
+	left: 13px;
+	color: #1f2c3f;
+}
+
+
+.logo-typo {
+	float: left;
+	color: #fff;
+	font-size: 20px;
+	margin-top: 10px;
+}
+
+/*--------------------------------------*\
+			ESPACE UTILISATEUR
+\*--------------------------------------*/
+.right-user {
+	float: right;
+}
+
+.welcome {
+	float: left;
+	color: #fff;
+	display: inline;
+	margin: 48px -10px 0 0;
+
+	font-weight: bolder;
+}
+
+.user-pseudo {
+	color: #FFB03B;
+}
+.user {
+	float: right;
+}
+.user ul li{
+	margin: 20px 0 0 20px;
+	display: inline-block;
+	color: #fff;
+	font-size: 14px;
+	font-weight: bold;
+	background : transparent;
+	border: 1px solid #fff; 
+	height: 40px;
+	padding: 0 15px 0 15px;
+	border-radius: 6px;
+	line-height: 40px;
+	transition: background 0.5s;
+}
+
+.user ul li:hover{
+	background: #fff;
+	color: rgba(50, 66, 92, 1);
+}
+
+/*--------------------------------------*\
+			     MENU
+\*--------------------------------------*/
+
+.line{
+	height: 60px;
+	width: 100%;
+	background: rgba(0,0,0,0.1);
+	-webkit-box-shadow: 0 2px 0 0 rgba(0,0,0,0.4);
+	box-shadow: 0 2px 0 0 rgba(0,0,0,0.4);
+}
+
+.top-menu { 
+	margin: 0; 
+	padding: 0;
+	float: left;
+	height: 60px;
+	font-size: 14px;
+
+}
+.top-menu li{
+	display: inline-block;
+}
+.top-menu a li {
+	text-decoration: none;
+	color: #fff;
+	margin: 0 55px 0 0;
+	font-weight: bolder;
+	line-height: 60px;
+	height: 60px;
+	transition: color 0.4s;
+	transition: box-shadow 0.4s;
+}
+.top-menu li:hover {
+	color: #FFB03B;
+	-webkit-box-shadow: 0 2px 0 0 #FFB03B;
+	box-shadow: 0 2px 0 0 #FFB03B;
+}
+
+.panier a{
+	float: right;
+	font-size: 14px;
+	font-weight: bolder;
+	color: #fff;
+	text-decoration: none;
+	line-height: 60px;
+	background: #FFB03B;
+	padding-left: 15px;
+	text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.3);
+
+	/*transition: color 0.4s;*/
+	transition: box-shadow 0.4s;
+
+	display: inline-block;
+}
+
+.panier a span {
+	margin-left: 10px;
+	padding: 0 15px 0 15px;
+	background: #FFB03B;
+	height: 60px;
+	display: inline-block;
+
+}
+.panier a:hover{
+	-webkit-box-shadow: 0 2px 0 0 #FFB03B;
+	box-shadow: 0 2px 0 0 #FFB03B;
+}
+
+
+
+/*--------------------------------------*\
+			     TITRES 
+\*--------------------------------------*/
+
+.titre-body {
+	text-transform: uppercase;
+	color: #FFB03B;
+	font-size: 35px;
+	text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.2);
+	margin: 50px 0 0 10px;
+}
+
+h3 {
+	color: #FFB03B;
+	font-size: 25px;
+	margin: 10px 0;
+}
+
+/*--------------------------------------*\
+	      	FICHE PRODUIT
+\*--------------------------------------*/
+
+.fiche-prod {
+	margin: 20px 0 0 0;
+	background: #16202d;
+	display: block;
+	min-height: 360px;
+	height: 360px;
+	padding: 20px;
+
+	position: relative;
+}
+
+/*--------------------------------------*\
+	      		IMAGE PRODUIT
+\*--------------------------------------*/
+
+.img-prod {
+	width: 350px;
+	height: 360px;
+	background: #202e3f;
+	float: left;
+}
+
+/*--------------------------------------*\
+	      	DESCRIPTION PRODUIT
+\*--------------------------------------*/
+
+.desc-prod {
+	float: left;
+	margin-left: 30px;
+	text-align: left;
+	font-size: 14px;
+
+	height: 360px;
+	position: relative;
+}
+
+.desc-prod p {
+	color: #fff;
+}
+
+.highlight-green {
+	color: #3afb06;
+}
+
+.highlight-red {
+	color: #ff0000;
+}
+
+.desc-prod-prg {
+	width: 650px;
+	line-height: 130%;
+	font-size: 14px;
+
+}
+
+.highlight-desc {
+	color: #FFB03B;
+	font-weight: bold;
+}
+
+.list-tri {
+	margin-left: 0px;
+	-webkit-padding-start: 0px;
+
+}
+
+.list-tri li {
+	display: inline-block;
+	margin-bottom: 10px;
+
+}
+
+.list-tri li a{
+	text-decoration: none;
+	color: #d9e4f6;
+	padding: 5px;
+	border: 1px  rgba(217, 228, 246, 0.5) solid;
+	border-radius: 4px;
+
+	transition: border 0.4s;
+	transition: color 0.4s;
+	text-transform: uppercase;
+
+	font-size: 13px;
+}
+
+.list-tri li a:hover{
+	border: 1px #FFB03B solid;
+	color: #FFB03B;
+}
+
+/*--------------------------------------*\
+	      	PARTIE COMMANDE
+\*--------------------------------------*/
+
+.prix-prod {
+	font-size: 35px;
+	color: #FFB03B;
+	font-weight: bolder;
+	position: absolute;
+	bottom: 10px;
+
+	margin-bottom: 10px;
+	float: left;
+}
+
+.ajout-panier {
+	float: right;
+	position: absolute;
+	width: 300px;
+	bottom: 0px;
+	right: 0px
+}
+
+.quant {
+	color: #fff;
+	position: absolute;
+	bottom: 31px;
+	left: 10px;
+}
+
+.quantite {
+	background: #fff;
+	height: 22px;
+	width: 35px;
+	position: absolute;
+	bottom: 25px;
+	left: 75px;
+}
+
+.but-commander {
+	margin: 10px 0 20px 0;
+
+	color: #FFB03B;
+	font-size: 11px;
+	font-weight: bold;
+	height: 40px;
+	line-height: 40px;
+	padding: 0 15px 0 15px;
+	float: right;
+	text-decoration: none;
+
+	background: transparent;
+	border: 1px solid #FFB03B;
+	border-radius: 5px;
+	text-transform: uppercase;
+	cursor: pointer;
+
+	transition: background 0.4s;
+	transition: color 0.4s;
+}
+
+.but-commander:hover {
+	background: #FFB03B;
+	color: #fff;
+	text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.3);
+}
