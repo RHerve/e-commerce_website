@@ -2,9 +2,7 @@
 
 This is a school project, where I was charged to design and develop an e-commerce website from scratch.
 
-**************************
-Features
-**************************
+## Features
 
 There is an user accounts management, with a back-office for the admin to add/delete or edit product details.
 
